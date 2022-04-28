@@ -1,0 +1,199 @@
+body {
+    background-color: darkorange;
+    max-height: 50px;
+
+}
+
+.container {
+    width: 80%;
+    height: 1100px;
+    margin: 120px auto;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+li.active {
+    background: darkorange;
+    color: #fff;
+    border-radius: 5px;
+}
+
+li.deactive {
+    color: rgb(161, 149, 149);
+}
+
+.navigation {
+    width: 30%;
+    margin-top: 65px;
+}
+
+.navigation div {
+    width: 60%;
+    text-align: center;
+    margin: 0 0 0 auto;
+}
+
+.img-autumn {
+    width: 70%;
+    
+    filter: drop-shadow(0px 20px 10px gray);
+
+}
+li.fa fa-sort-desc{
+    width: 20px;
+}
+.nav-with-img {
+    display: flex;
+    margin-top: 100px;
+}
+
+.search-container {
+
+
+
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    padding: 65px;
+    top: 1px;
+    right: 50px;
+    /* display: inline-block; */
+}
+
+.search-icon {
+    background-color: white;
+}
+
+.box {
+    /* background-color: darkorange; */
+
+    background-color: gray;
+    margin-right: 900px;
+    margin-bottom: 1000;
+    color: white;
+    font-size: 20px;
+    border-radius: 5%;
+
+
+
+}
+p.text-model{
+    text-align: center;
+    color: rgb(124, 121, 121);
+    margin-top: 0px;
+}
+
+.button1{
+    position: relative;
+    left: 60px;
+    color: rgb(124, 121, 121);
+}
+.button2{
+    position: relative;
+    left: 60px;
+    color: rgb(124, 121, 121);
+}
+.button3{
+    position: relative;
+    left: 60px;
+    color: rgb(124, 121, 121);
+}
+
+
+.box1 {
+    background-color: orange;
+    padding: 20px;
+    color: white;
+}
+
+.box2 {
+    background-color: rgb(84, 82, 82);
+    padding: 20px;
+    color: white;
+}
+
+.box3 {
+    background-color: rgb(172, 169, 169);
+    padding: 20px;
+    color: white;
+}
+
+.box4 {
+    background-color: rgb(84, 82, 82);
+    padding: 20px;
+    color: white;
+}
+
+.box5 {
+    background-color: rgb(172, 169, 169);
+    padding: 20px;
+    color: white;
+}
+
+
+
+.container .rect1 {
+    margin-top: 100px;
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    border: double 10px rgb(201, 200, 200);
+    background-color: rgb(236, 233, 233);
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .rect2 {
+    margin-top: 100px;
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    border: double 10px rgb(201, 200, 200);
+    background-color: rgb(236, 233, 233);
+}
+
+.container .rect3 {
+    margin-top: 100px;
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    border: double 10px rgb(201, 200, 200);
+    background-color: rgb(236, 233, 233);
+}
+
+.computer {
+    width: 60%;
+    margin: 18px;
+}
+
+.laptop {
+    width: 100%;
+}
+
+.calculator {
+    width: 50%;
+    margin: 28px;
+
+}
+
+.double-border1 {
+    justify-content: baseline;
+}
